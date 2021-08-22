@@ -49,7 +49,7 @@ namespace Garage_1._0
         }
 
         public bool Park(T vehicle)
-        {            
+        {
             for (int i = 0; i < GarageCapacity; i++) 
             {
                 if (vehicles[i]==null)
@@ -75,7 +75,7 @@ namespace Garage_1._0
             }
             return false;
         }
-
+        //Testing git branches
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
